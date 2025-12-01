@@ -1,6 +1,6 @@
 # ✨ Página web personal ✨
 
-### Visitar el sitio online 👉 [https://florenciarodriguezwebpage-g1ki6nr9k.vercel.app/]
+### Visitar el sitio online 👉 [https://florenciarodriguezwebpage.vercel.app/]
 
 ## Descripción y desarrollo
 
