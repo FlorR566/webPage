@@ -1,0 +1,124 @@
+/* ---------- WRAPPER GENERAL ---------- */
+.shapes-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ocupa el 100% del alto visible */
+  overflow: hidden;
+  background: linear-gradient(to top, #333446, #1b3c53);
+}
+
+/* Siempre dejan el SVG al fondo */
+.shapes-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.desktop-bg {
+  display: block;
+}
+
+.mobile-bg {
+  display: none;
+}
+
+/* ---------- ANIMACIONES ---------- */
+@keyframes girarIzquierda {
+  50% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes girarDerecha {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animaciones de shapes */
+.violetaA,
+.violetaB,
+.gris,
+.verde,
+.turquesa,
+.purpura,
+.azulgris,
+.azulgrisB {
+  transform-box: fill-box;
+}
+
+/* ajustes por color */
+.violetaA {
+  transform: translate(50px, 70px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+
+.violetaB {
+  transform: translate(-30px, 10px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+
+.azulgris {
+  transform: translate(50px, 40px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+.azulgrisB {
+  transform: translate(-40px, 30px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+.purpura {
+  transform: translate(40px, 35px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+.turquesa {
+  transform: translate(0px, 45px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+.verde {
+  transform: translate(10px, -10px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+
+.gris {
+  transform: translate(15px, -35px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+/* ---------- VERSIÓN MOBILE ---------- */
+@media (max-width: 768px) {
+  .desktop-bg {
+    display: none;
+  }
+
+  .mobile-bg {
+    display: block;
+  }
+
+  .shapes-wrapper {
+    aspect-ratio: 1 / 1; /* cuadrado para móviles */
+    height: 100dvh;
+  }
+
+  /* Mobile animations más suaves */
+  .violeta,
+  .rosa,
+  .verde,
+  .turquesa {
+    transform: translate(0px, 0px) scale(1.3);
+    animation-duration: 14s;
+    opacity: 0.8;
+  }
+
+  /* ajustes visuales mobile */
+  .shapes-content {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+  }
+}
