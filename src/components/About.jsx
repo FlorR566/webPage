@@ -6,14 +6,24 @@ const About = () => {
       <section id="about" className="about">
         <h2>Sobre mí</h2>
         <p>
-          Soy estudiante de la Tecnicatura Universitaria en Programación en la
-          UTN y
+          Actualmente curso la{' '}
+          <strong>Tecnicatura Universitaria en Programación</strong> en la{' '}
+          <strong>Universidad Tecnológica Nacional (UTN)</strong>.
           <br />
-          actualmente me encuentro desarrollad proyectos personales con
+          Complemento mi formación con cursos y desarrollo de proyectos
+          personales utilizando
           <strong> React</strong>.
           <br />
-          Manejo tecnologías como <strong>HTML</strong>, <strong>CSS</strong>,{' '}
-          <strong>JavaScript</strong> y <strong>Python</strong>.
+          <br />
+          Trabajo con conceptos como componentes, estados, hooks, manejo de
+          formularios y consumo de APIs usando fetch o axios. También manejo{' '}
+          <strong>HTML</strong>, <strong>CSS</strong>,{' '}
+          <strong>JavaScript</strong>, <strong>Python</strong> y herramientas
+          como <strong>Git/GitHub</strong>, <strong>npm</strong> y{' '}
+          <strong>json-server</strong>.
+          <br />
+          Me interesa seguir mejorando como desarrolladora frontend y aplicar
+          buenas prácticas en cada proyecto.
         </p>
       </section>
     </div>
