@@ -1,6 +1,6 @@
 <h1 align="center"> ✨ Bienvenidos a mi página web ✨</h1>
 
-### Visitar el sitio 👉 [https://florenciarodriguezwebpage.vercel.app/](https://florenciarodriguezwebpage.vercel.app/)
+### Visitar el sitio 👉 [https://florenciarodriguez.vercel.app/](https://florenciarodriguez.vercel.app/)
 
 ## Descripción
 
