@@ -1,13 +1,12 @@
-# ✨ Página web personal ✨
+<h1 align="center"> ✨ Bienvenidos a mi página web ✨</h1>
 
-### Visitar el sitio online 👉 [https://florenciarodriguezwebpage.vercel.app/](https://florenciarodriguezwebpage.vercel.app/)
+### Visitar el sitio 👉 [https://florenciarodriguezwebpage.vercel.app/](https://florenciarodriguezwebpage.vercel.app/)
 
 ## Descripción
 
-Este proyecto es mi página web personal, desarrollada como parte de mi proceso de aprendizaje en desarrollo web.  
-El objetivo fue aplicar buenas prácticas de **React**, **JavaScript**, y **CSS moderno (Flexbox & Grid)** para construir una interfaz accesible, fluida y adaptable a distintos dispositivos.  
+Desarrollada con buenas prácticas de **React**, **JavaScript**, y **CSS moderno (Flexbox & Grid)** para construir una interfaz accesible, fluida y adaptable a distintos dispositivos.  
 Diseñé y maqueté todo desde cero — sin frameworks CSS — para reforzar los fundamentos de React, HTML y CSS.  
-En la actualidad, sigo trabajando para mejorar la escalabilidad del código y agregar nuevas funcionalidades con React.
+En la actualidad, sigo trabajando para mejorar la escalabilidad del código y agregar nuevas funcionalidades con React. 
 
 ## Característica / Funcionalidades
 
@@ -18,7 +17,7 @@ En la actualidad, sigo trabajando para mejorar la escalabilidad del código y ag
   - 🧑‍💻 Proyectos
   - 📩 Contacto
 
-## Tecnología usada
+## Tecnología usada
 
 - Framework / Biblioteca: React + JavaScript
 
@@ -30,6 +29,7 @@ En la actualidad, sigo trabajando para mejorar la escalabilidad del código y ag
 
 ## Contacto
 
-- 📧 [Email](mailto:florodriguez.dev@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/florenciamabelrodriguez/)
-- 🐙 [GitHub](https://github.com/FlorR566)
+- Website: https://florenciarodriguez.vercel.app/
+- LinkedIn: [@florenciamabelrodriguez](https://www.linkedin.com/in/florenciamabelrodriguez/)
+- GitHub: [@florr566](https://github.com/FlorR566)
+- Email: [florodriguez.dev@gmail.com](mailto:florodriguez.dev@gmail.com)
