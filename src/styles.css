@@ -103,7 +103,7 @@ header {
 
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
   }
@@ -113,6 +113,13 @@ header {
     padding: 1.5rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    overflow: hidden;
   }
 
   .project-a {
