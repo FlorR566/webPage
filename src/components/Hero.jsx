@@ -7,7 +7,10 @@ const Hero = () => {
       <section id="hero" className="hero">
         <div className="hero-content">
           <h1>¡Hola! Soy Flor 👩🏼‍💻</h1>
-          <h3>Desarrolladora web en formación, bienvenid@ a mi página web!</h3>
+          <h3>
+            Desarrolladora frontend en formación, con enfoque en React y diseño
+            moderno.
+          </h3>
           <a href="#projects" className="btn">
             Ver proyectos
           </a>
