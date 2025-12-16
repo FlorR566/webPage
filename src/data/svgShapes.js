@@ -80,12 +80,6 @@ export const svgShapes = [
   createShape('violeta-4', 'violetaA', COLORS.violetaA, PATHS.shape4),
   createShape('violeta-5', 'violetaA', COLORS.violetaA, PATHS.shape5),
   createShape('violeta-6', 'violetaA', COLORS.violetaA, PATHS.shape6),
-  createShape('purpura-1', 'violetaB', COLORS.violetaB, PATHS.shape7),
-  createShape('purpura-2', 'violetaB', COLORS.violetaB, PATHS.shape8),
-  createShape('purpura-3', 'violetaB', COLORS.violetaB, PATHS.shape9),
-  createShape('purpura-4', 'violetaB', COLORS.violetaB, PATHS.shape10),
-  createShape('purpura-5', 'violetaB', COLORS.violetaB, PATHS.shape11),
-  createShape('purpura-6', 'violetaB', COLORS.violetaB, PATHS.shape12),
 
   // ----- PURPURA (ANTES "ROJO") -----
   createShape('purpura-1', 'purpura', COLORS.purpuraA, PATHS.shape1),
@@ -94,6 +88,18 @@ export const svgShapes = [
   createShape('purpura-4', 'purpura', COLORS.purpuraA, PATHS.shape4),
   createShape('purpura-5', 'purpura', COLORS.purpuraA, PATHS.shape5),
   createShape('purpura-6', 'purpura', COLORS.purpuraA, PATHS.shape6),
+  createShape('purpura-7', 'azulgrisB', COLORS.azulGrisB, PATHS.shape7),
+  createShape('purpura-8', 'azulgrisB', COLORS.azulGrisB, PATHS.shape8),
+  createShape('purpura-9', 'azulgrisB', COLORS.azulGrisB, PATHS.shape9),
+  createShape('purpura-10', 'azulgrisB', COLORS.azulGrisB, PATHS.shape10),
+  createShape('purpura-11', 'azulgrisB', COLORS.azulGrisB, PATHS.shape11),
+  createShape('purpura-12', 'azulgrisB', COLORS.azulGrisB, PATHS.shape12),
+  createShape('purpura-13', 'violetaB', COLORS.violetaB, PATHS.shape7),
+  createShape('purpura-14', 'violetaB', COLORS.violetaB, PATHS.shape8),
+  createShape('purpura-15', 'violetaB', COLORS.violetaB, PATHS.shape9),
+  createShape('purpura-16', 'violetaB', COLORS.violetaB, PATHS.shape10),
+  createShape('purpura-17', 'violetaB', COLORS.violetaB, PATHS.shape11),
+  createShape('purpura-18', 'violetaB', COLORS.violetaB, PATHS.shape12),
 
   // ----- AZUL GRIS (ANTES "NARANJA") -----
   createShape('azulgris-1', 'azulgris', COLORS.azulGrisA, PATHS.shape1),
@@ -102,12 +108,6 @@ export const svgShapes = [
   createShape('azulgris-4', 'azulgris', COLORS.azulGrisA, PATHS.shape4),
   createShape('azulgris-5', 'azulgris', COLORS.azulGrisA, PATHS.shape5),
   createShape('azulgris-6', 'azulgris', COLORS.azulGrisA, PATHS.shape6),
-  createShape('purpura-1', 'azulgrisB', COLORS.azulGrisB, PATHS.shape7),
-  createShape('purpura-2', 'azulgrisB', COLORS.azulGrisB, PATHS.shape8),
-  createShape('purpura-3', 'azulgrisB', COLORS.azulGrisB, PATHS.shape9),
-  createShape('purpura-4', 'azulgrisB', COLORS.azulGrisB, PATHS.shape10),
-  createShape('purpura-5', 'azulgrisB', COLORS.azulGrisB, PATHS.shape11),
-  createShape('purpura-6', 'azulgrisB', COLORS.azulGrisB, PATHS.shape12),
 
   // ----- GRIS -----
   createShape('gris-1', 'gris', COLORS.gris, PATHS.shapeR1),
