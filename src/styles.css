@@ -38,21 +38,28 @@ header {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
-}
-
-.btn-card {
-  width: 100%;
-  color: #333;
-  border: 1px solid #333;
-  padding: 0.9rem 1.8rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
   transition: 0.3s ease;
-  margin-top: auto;
 }
 
-.btn-card:hover {
+.hero-content .btn:hover {
+  background-color: #764ba2;
+  box-shadow: 0px 4px 6px rgba(184, 184, 184, 0.154);
+  color: #fff;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.project-btn {
+  width: 100%;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 8px;
+  background: rgb(208, 205, 205);
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease;
+}
+.project-btn:hover {
   background-color: #764ba2;
   box-shadow: 0px 4px 6px rgba(5, 5, 5, 0.154);
   color: #fff;
@@ -158,10 +165,6 @@ footer {
     height: auto;
     object-fit: fill;
     overflow: hidden;
-  }
-
-  .project-a {
-    text-decoration: none;
   }
 
   .contact a {
@@ -282,11 +285,6 @@ footer {
     padding: 1.5rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-  }
-
-  .project-a {
-    text-decoration: none;
-    color: #333;
   }
 
   .contact a {

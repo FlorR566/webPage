@@ -6,19 +6,15 @@ const ProjectCard = ({ projects }) => {
       {projects.map(item => (
         <div className="project-card" key={item.id}>
           <img src={item.src} alt={item.alt} width="270" height="150" />
-
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-
           <a
-            className="project-a"
+            className="project-btn"
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn-card" type="button">
-              Ver proyecto 🐝{' '}
-            </button>
+            Ver proyecto 🐝
           </a>
         </div>
       ))}
