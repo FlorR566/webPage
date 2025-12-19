@@ -9,16 +9,14 @@ const ProjectCard = ({ projects }) => {
           <h3>{item.title}</h3>
           <p>{item.text}</p>
 
-          {console.log(item.onGitHub)}
-
-          {item.onGitHub ? (
+          {item.onWebSite ? (
             <a
               className="project-btn"
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ver en GitHub 🚀
+              Ver proyecto 🐝
             </a>
           ) : (
             <a
@@ -27,7 +25,7 @@ const ProjectCard = ({ projects }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ver proyecto 🐝
+              Ver en GitHub 🚀
             </a>
           )}
         </div>

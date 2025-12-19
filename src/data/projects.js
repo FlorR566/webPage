@@ -11,7 +11,7 @@ const PROJECTS = [
     title: 'Lady Valentina',
     text: 'Landing page para un comercio de carteras, desarrollada con React, JavaScript y CSS. Diseño responsive adaptado a dispositivos móviles. Proyecto actualmente en desarrollo.',
     href: 'https://ladyvalentina.vercel.app/',
-    onGitHub: false,
+    onWebSite: true,
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const PROJECTS = [
     title: 'RandomUser Explorer',
     text: 'Herramienta para obtener datos de usuarios random, mediante una API. Incluye un gráfico que muestra la cantidad de mujeres y hombres.',
     href: 'https://florr566.github.io/RandomUser-Grapher/',
-    onGitHub: false,
+    onWebSite: true,
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const PROJECTS = [
     title: 'Weather App',
     text: 'Aplicación para consultar el clima en tiempo real: temperatura, humedad y más, consumiendo una API externa.',
     href: 'https://github.com/FlorR566/Weather-App-FR',
-    onGitHub: true,
+    onWebSite: false,
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const PROJECTS = [
     title: 'To-Do List',
     text: 'Aplicación interactiva para gestionar tareas, con almacenamiento local, desarrollada en JavaScript, CSS y HTML.',
     href: 'https://florr566.github.io/TO-DO-List/',
-    onGitHub: false,
+    onWebSite: true,
   },
 ];
 
