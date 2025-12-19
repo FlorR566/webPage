@@ -92,12 +92,12 @@ header {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .hero-content .btn:hover {
   background-color: #764ba2;
-  box-shadow: 0px 4px 6px rgba(184, 184, 184, 0.154);
+  box-shadow: 0px 4px 6px rgba(5, 5, 5, 0.418);
   color: #fff;
   transform: scale(1.02);
   cursor: pointer;
@@ -146,7 +146,7 @@ header {
   background: rgb(208, 205, 205);
   text-decoration: none;
   color: #333;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 .project-btn:hover {
   background-color: #764ba2;
@@ -171,8 +171,6 @@ header {
   height: 1.3em;
   width: 1.3em;
   color: #3282d7;
-
-  transition: opacity 0.3s ease-in-out;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
