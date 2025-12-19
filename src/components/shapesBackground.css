@@ -2,7 +2,7 @@
 .shapes-wrapper {
   position: relative;
   width: 100%;
-  height: 100vh; /* ocupa el 100% del alto visible */
+  height: 100dvh;
   overflow: hidden;
   background: linear-gradient(to top, #333446, #1b3c53);
 }
@@ -102,23 +102,16 @@
 
   .shapes-wrapper {
     aspect-ratio: 1 / 1; /* cuadrado para móviles */
-    height: 100dvh;
   }
 
   /* Mobile animations más suaves */
+
   .violeta,
   .rosa,
   .verde,
   .turquesa {
-    transform: translate(0px, 0px) scale(1.3);
+    transform: translate(-10px, 0px) scale(1.2);
     animation-duration: 14s;
     opacity: 0.8;
-  }
-
-  /* ajustes visuales mobile */
-  .shapes-content {
-    position: relative;
-    z-index: 5;
-    text-align: center;
   }
 }
