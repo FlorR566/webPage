@@ -3,20 +3,18 @@ import './shapesBackground.css';
 
 const Hero = () => {
   return (
-    <div className="shapes-content">
-      <section id="hero" className="hero">
-        <div className="hero-content">
-          <h1>¡Hola! Soy Flor 👩🏼‍💻</h1>
-          <h3>
-            Desarrolladora frontend en formación, con enfoque en React y diseño
-            moderno.
-          </h3>
-          <a href="#projects" className="btn">
-            Ver proyectos
-          </a>
-        </div>
-      </section>
-    </div>
+    <section id="hero" className="hero">
+      <div className="hero-content">
+        <h1>¡Hola! Soy Flor 👩🏼‍💻</h1>
+        <h3>
+          Desarrolladora frontend en formación, con enfoque en React y diseño
+          moderno.
+        </h3>
+        <a href="#projects" className="btn">
+          Ver proyectos
+        </a>
+      </div>
+    </section>
   );
 };
 
