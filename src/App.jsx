@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import PROJECTS from './data/projects.js';
+import socialIcons from './data/icons.js';
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
       {/* PROJECTS SECTION */}
       <Projects projectsList={PROJECTS} />
       {/* CONTACT SECTION */}
-      <Contact />
+      <Contact Icons={socialIcons} />
       <Footer />
     </>
   );

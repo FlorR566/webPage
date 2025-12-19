@@ -1,39 +1,23 @@
 import '../styles.css';
 
-const Contact = () => {
+const SocialLinks = ({ socialIcons }) => {
+  return (
+    <div className="iconsDiv">
+      {/* eslint-disable-next-line no-unused-vars */}
+      {socialIcons.map(({ id, href, target, rel, Icon }) => (
+        <a key={id} href={href} target={target} rel={rel} className="hover">
+          <Icon className="socialIcono" />
+        </a>
+      ))}
+    </div>
+  );
+};
+
+const Contact = ({ Icons }) => {
   return (
     <section id="contact" className="contact">
       <h2>Contacto</h2>
-      <div className="div-icons">
-        <a
-          href="https://www.linkedin.com/in/florenciamabelrodriguez/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="img-linkedin"
-            src="/src/linkedIn-icon.svg"
-            alt="LinkedIn Icon"
-            width="40"
-            height="40"
-          />
-        </a>
-
-        <a
-          href="https://github.com/FlorR566"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="img-github"
-            src="/src/github-icon.svg"
-            alt="GitHub Icon"
-            width="34"
-            height="34"
-          />
-        </a>
-      </div>
-
+      <SocialLinks socialIcons={Icons} />
       <p>
         O a través de un correo a{' '}
         <a
