@@ -59,7 +59,7 @@ header {
 }
 
 .logo a {
-  color: rgb(255, 255, 255);
+  color: #3282d7;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -113,7 +113,7 @@ header {
   line-height: 1.1;
 }
 
-.hero-content p {
+.hero-content span {
   color: var(--bg-icons);
 }
 

@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <nav>
         <div id="inicio" className="logo">
-          <a href="#hero">Florencia Rodriguez 🌸🐝</a>
+          <a href="#hero">Flor.dev 🌸🐝</a>
         </div>
         <ul className="nav-links">
           <li>

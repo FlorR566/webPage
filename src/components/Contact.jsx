@@ -16,10 +16,10 @@ const SocialLinks = ({ socialIcons }) => {
 const Contact = ({ Icons }) => {
   return (
     <section id="contact" className="contact">
-      <h2>Contacto</h2>
+      <h2>Medios de contacto</h2>
       <SocialLinks socialIcons={Icons} />
       <p>
-        O a través de un correo a{' '}
+        E-mail:{' '}
         <a
           href="mailto:florodriguez.dev@gmail.com"
           target="_blank"
