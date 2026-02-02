@@ -37,26 +37,35 @@ export const PATHS = {
 // --------------------------------------
 export const COLORS = {
   // Violeta
-  violetaA: '#7a657dff',
-  violetaB: '#492c70ff',
+  // violetaA: '#7a657dff',
+  // violetaB: '#492c70ff',
+  violetaA: '#333',
+  violetaB: '#333',
 
   // Purpura
-  purpuraA: '#5c498eff',
-
+  // purpuraA: '#5c498eff',
+  purpuraA: '#333',
   // Azul Gris
-  azulGrisA: '#555879',
-  azulGrisB: '#46375aff',
+  // azulGrisA: '#555879',
+  // azulGrisB: '#46375aff',
+  azulGrisA: '#333',
+  azulGrisB: '#333',
 
   // Gris
-  gris: '#748DAE',
+  // gris: '#748DAE',
+  gris: '#333',
 
   // Turquesa
-  turquesaA: '#4DA1A9',
-  turquesaB: '#6A9AB0',
+  // turquesaA: '#4DA1A9',
+  // turquesaB: '#6A9AB0',
+  turquesaA: '#333',
+  turquesaB: '#333',
 
   // Verde
-  verdeA: '#84AE92',
-  verdeB: '#4A9782',
+  // verdeA: '#84AE92',
+  // verdeB: '#4A9782',
+  verdeA: '#333',
+  verdeB: '#333',
 };
 
 // --------------------------------------
