@@ -1,22 +1,32 @@
 import '../styles.css';
+/* eslint-disable no-unused-vars */
+import { motion } from 'motion/react';
 
 const ABOUT_TEXT = (
   <>
-    Hola! Soy Florencia Rodriguez, Desarrolladora Frontend en formación con
-    enfoque en <strong>React</strong>. Actualmente curso la
-    <strong> Tecnicatura Universitaria en Programación</strong> en la
-    Universidad Tecnológica Nacional
-    <strong> (UTN)</strong>.
+    Soy
+    <strong className="strong"> React Frontend Developer</strong> y estudiante
+    de{' '}
+    <strong className="strong">
+      Tecnicatura Universitaria en Programación
+    </strong>{' '}
+    en la UTN.
     <br />
-    <br />
-    Trabajo con componentes, estados, hooks, manejo de formularios y consumo de
-    APIs usando fetch o axios. También manejo <strong>HTML</strong>,{' '}
-    <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python</strong> y
-    herramientas como <strong>Git/ GitHub</strong>, <strong>npm</strong> y{' '}
-    <strong>Json-server</strong>.
-    <br />
-    Me interesa seguir mejorando como desarrolladora frontend y aplicar buenas
-    prácticas en cada proyecto.
+    Me dedico a crear interfaces intuitivas y escalables, manejando{' '}
+    <strong className="strong">React</strong>,{' '}
+    <strong className="strong">JavaScript</strong>,{' '}
+    <strong className="strong">HTML</strong> y{' '}
+    <strong className="strong">CSS</strong>, siempre priorizando las buenas
+    prácticas y el <strong className="strong">SEO</strong>. <br /> Actualmente,
+    estoy expandiendo mi stack hacia el backend con{' '}
+    <strong className="strong">MERN</strong>, profundizando en Node.js, Express
+    y MongoDB para construir soluciones de punta a punta. <br />
+    Cuento con una formación avanzada en{' '}
+    <strong className="strong">Licenciatura en Administración</strong> y
+    experiencia en áreas de <strong className="strong">abastecimiento</strong> y{' '}
+    <strong className="strong">compras</strong>.
+    <br /> Me interesa seguir mejorando como React Frontend Developer y aplicar
+    buenas prácticas en cada proyecto.
   </>
 );
 
@@ -24,7 +34,28 @@ const About = () => {
   return (
     <section id="about" className="about">
       <h2>Sobre mí</h2>
-      <p>{ABOUT_TEXT}</p>
+
+      <motion.div
+        className="circle-frame"
+        animate={{
+          y: [10, -10, 10],
+        }}
+        transition={{
+          duration: 4,
+          repeat: Infinity,
+          ease: 'easeInOut',
+        }}
+      >
+        <img
+          className="about-illustration"
+          src="src/chicaDev.svg"
+          alt="Ilustración de una chica programadora"
+        />
+      </motion.div>
+
+      <div className="textBox-mobileView">
+        <p>{ABOUT_TEXT}</p>
+      </div>
     </section>
   );
 };
