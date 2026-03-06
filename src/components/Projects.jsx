@@ -7,6 +7,14 @@ const ProjectCard = ({ projects }) => {
         <div className="project-card" key={item.id}>
           <img src={item.src} alt={item.alt} width="270" height="150" />
           <h3>{item.title}</h3>
+
+          {/* Tecnologias */}
+          <div className="tech-div">
+            {item.technologies.map(t => (
+              <p className="technologie">{t}</p>
+            ))}
+          </div>
+
           <p>{item.text}</p>
 
           {item.onWebSite ? (
