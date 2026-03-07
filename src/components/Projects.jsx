@@ -1,44 +1,33 @@
 import '../styles.css';
 
-const ProjectCard = ({ projects }) => {
+const ProjectItem = ({ item }) => {
+  const isExternal = item.onWebSite;
+
   return (
-    <div className="project-grid">
-      {projects.map(item => (
-        <div className="project-card" key={item.id}>
-          <img src={item.src} alt={item.alt} width="270" height="150" />
-          <h3>{item.title}</h3>
+    <article className="project-card">
+      <img src={item.src} alt={item.alt} loading="lazy" />
 
-          {/* Tecnologias */}
-          <div className="tech-div">
-            {item.technologies.map(t => (
-              <p className="technologie">{t}</p>
-            ))}
-          </div>
+      <h3>{item.title}</h3>
 
-          <p>{item.text}</p>
+      <div className="tech-div">
+        {item.technologies.map((tech, idx) => (
+          <span key={`${item.id}-${idx}`} className="technologie">
+            {tech}
+          </span>
+        ))}
+      </div>
 
-          {item.onWebSite ? (
-            <a
-              className="project-btn"
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ver proyecto 🐝
-            </a>
-          ) : (
-            <a
-              className="project-btn"
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ver en GitHub 🚀
-            </a>
-          )}
-        </div>
-      ))}
-    </div>
+      <p className="text-card">{item.text}</p>
+
+      <a
+        className="project-btn"
+        href={item.href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {isExternal ? 'Ver proyecto 🐝' : 'Ver en GitHub 🚀'}
+      </a>
+    </article>
   );
 };
 
@@ -46,7 +35,12 @@ const Projects = ({ projectsList }) => {
   return (
     <section id="projects" className="projects">
       <h2>Proyectos</h2>
-      <ProjectCard projects={projectsList} />
+
+      <div className="project-grid">
+        {projectsList.map(project => (
+          <ProjectItem key={project.id} item={project} />
+        ))}
+      </div>
     </section>
   );
 };
