@@ -1,18 +1,8 @@
-import imgHoster1 from '/src/Hoster-Modal-Mtto.png';
-// import imgHoster2 from '/src/Hoster-Login.png';
-// import imgHoster3 from '/src/Hoster-Mantenimiento.png';
-// import imgHoster4 from '/src/Hoster-Dashboard.png';
-import imgLadyValentina1 from '/src/lady-valentina-otoño.png';
-//import imgLadyValentina2 from '/src/lady-valentina-navidad.png';
-import img2 from '/src/random-user-explorer-lightMode.png';
-import img3 from '/src/weather-app.png';
-import img4 from '/src/to-do-list.png';
-
 const PROJECTS = [
   {
     id: 1,
-    src: imgHoster1,
-    alt: 'Hoster',
+    src: 'https://res.cloudinary.com/dvcxjks92/image/upload/f_auto,q_auto/v1773144040/Hoster-Modal-Mtto_y4ic8p.png',
+    alt: 'Hoster página de mantenimiento',
     title: 'Hoster',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     text: 'Hoster es un PMS para hoteles rurales medianos. Digitaliza la operación diaria: reservas, check-in/out, servicios, y genera análisis mensuales con IA para identificar patrones de ocupación.',
@@ -21,8 +11,8 @@ const PROJECTS = [
   },
   {
     id: 2,
-    src: imgLadyValentina1,
-    alt: 'Lady Valentina App',
+    src: 'https://res.cloudinary.com/dvcxjks92/image/upload/f_auto,q_auto/v1773144057/lady-valentina-oton%CC%83o_hqhqek.png',
+    alt: 'Página de inicio LadyValentina',
     title: 'Lady Valentina',
     technologies: [
       'React',
@@ -38,8 +28,8 @@ const PROJECTS = [
   },
   {
     id: 3,
-    src: img2,
-    alt: 'Random-user-explorer-lightMode',
+    src: 'https://res.cloudinary.com/dvcxjks92/image/upload/f_auto,q_auto/v1773144040/random-user-explorer-lightMode_iykhdl.png',
+    alt: 'Página de inicio Random user explorer en lightMode',
     title: 'RandomUser Explorer',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     text: 'Aplicación que consume una API externa para gestionar datos de usuarios. Implementa un gráfico dinámico para visualizar estadísticas demográficas en tiempo real.',
@@ -48,8 +38,8 @@ const PROJECTS = [
   },
   {
     id: 4,
-    src: img3,
-    alt: 'Weather App',
+    src: 'https://res.cloudinary.com/dvcxjks92/image/upload/f_auto,q_auto/v1773144086/weather-app_fgqgco.png',
+    alt: 'Página mostrando el clima con Weather App',
     title: 'Weather App',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     text: 'Dashboard climático en tiempo real que utiliza una API externa. Posee una interfaz dinámica que cambia su estética según el estado del clima actual.',
@@ -58,8 +48,8 @@ const PROJECTS = [
   },
   {
     id: 5,
-    src: img4,
-    alt: 'To-Do List',
+    src: 'https://res.cloudinary.com/dvcxjks92/image/upload/f_auto,q_auto/v1773144086/to-do-list_z4mpea.png',
+    alt: 'Página inicio de To-Do List',
     title: 'To-Do List',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     text: 'Aplicación interactiva para gestionar tareas, implementa LocalStorage para la persistencia de datos con almacenamiento local.',
