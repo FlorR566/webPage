@@ -6,7 +6,7 @@ const PROJECTS = [
     title: 'Hoster',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     text: 'Hoster es un PMS para hoteles rurales medianos. Digitaliza la operación diaria: reservas, check-in/out, servicios, y genera análisis mensuales con IA para identificar patrones de ocupación.',
-    href: 'https://i006-hoster-fullstack-develop.vercel.app/',
+    href: 'https://i006-hoster-fullstack-ijrn.vercel.app/',
     onWebSite: true,
   },
   {
