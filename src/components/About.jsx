@@ -5,9 +5,10 @@ import { motion } from 'motion/react';
 const ABOUT_TEXT = (
   <>
     Soy
-    <strong className="strong"> React Frontend Developer</strong> y estudiante
-    de{' '}
+    <strong className="strong"> Frontend Developer</strong> enfocada en React |
+    Node.js y estudiante de{' '}
     <strong className="strong">
+      {`\n`}
       Tecnicatura Universitaria en Programación
     </strong>{' '}
     en la UTN.
