@@ -486,3 +486,37 @@ footer a {
     transform: scale(1.3);
   }
 }
+
+.iconWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.copiedMessage {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
