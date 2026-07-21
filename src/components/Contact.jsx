@@ -17,7 +17,7 @@ const SocialLinks = ({ socialIcons }) => {
 
   return (
     <div className="iconsDiv">
-      {socialIcons.map(({ id, href, target, rel, isEmail, email }) => (
+      {socialIcons.map(({ id, href, target, rel, isEmail, email, Icon }) => (
         <div key={id} className="iconWrapper">
           {isEmail ? (
             <a
