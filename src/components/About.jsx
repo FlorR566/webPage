@@ -5,29 +5,27 @@ import { motion } from 'motion/react';
 const ABOUT_TEXT = (
   <>
     Soy
-    <strong className="strong"> Frontend Developer</strong> enfocada en React |
-    Node.js y estudiante de{' '}
+    <strong className="strong"> Full Stack Developer</strong> con experiencia en
+    <strong className="strong"> React</strong>,{' '}
+    <strong className="strong"> TypeScript</strong>,{' '}
+    <strong className="strong"> Node.js</strong> y{' '}
+    <strong className="strong"> MongoDB</strong>.
+    <br />
+    Construyo y despliego aplicaciones de punta a punta, desde la interfaz hasta
+    la API y la base de datos.
+    <br /> En lo académico, soy estudiante de la
     <strong className="strong">
-      {`\n`}
+      {' '}
       Tecnicatura Universitaria en Programación
     </strong>{' '}
-    en la UTN.
-    <br />
-    Me dedico a crear interfaces intuitivas y escalables, manejando{' '}
-    <strong className="strong">React</strong>,{' '}
-    <strong className="strong">JavaScript</strong>,{' '}
-    <strong className="strong">HTML</strong> y{' '}
-    <strong className="strong">CSS</strong>, siempre priorizando las buenas
-    prácticas y el <strong className="strong">SEO</strong>. <br /> Actualmente,
-    estoy expandiendo mi stack hacia el backend con{' '}
-    <strong className="strong">MERN</strong>, profundizando en Node.js, Express
-    y MongoDB para construir soluciones de punta a punta. <br />
-    Cuento con una formación avanzada en{' '}
+    en UTN, tengo una formación avanzada en{' '}
     <strong className="strong">Licenciatura en Administración</strong> y
-    experiencia en áreas de <strong className="strong">abastecimiento</strong> y{' '}
+    experiencia laboral, en áreas de{' '}
+    <strong className="strong">abastecimiento</strong> y{' '}
     <strong className="strong">compras</strong>.
-    <br /> Me interesa seguir mejorando como React Frontend Developer y aplicar
-    buenas prácticas en cada proyecto.
+    <br />
+    Me enfoco en crear interfaces que sean intuitivas y escalables, priorizando
+    las buenas prácticas y el <strong className="strong"> SEO</strong>.
   </>
 );
 
