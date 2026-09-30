@@ -38,11 +38,12 @@ const Hero = () => {
         </motion.h1>
 
         <motion.h2 variants={itemVariants} className="job-title">
-          React Frontend Developer
+          Full Stack Developer
         </motion.h2>
 
         <motion.h3 variants={itemVariants} className="stack-text">
-          Actualmente expandiendo mi stack hacia el desarrollo MERN
+          Construyendo aplicaciones full stack con React | Node.js <br />y
+          ampliando mi base con Java.
         </motion.h3>
 
         <motion.div variants={itemVariants}>

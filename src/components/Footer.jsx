@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer>
         <p>
-          &copy; 2025 -
+          &copy; 2026 -
           <a
             href="https://github.com/FlorR566"
             target="_blank"
