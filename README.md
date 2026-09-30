@@ -1,31 +1,43 @@
-<h1 align="center"> ✨ Bienvenidos a mi página web ✨</h1>
-
-### Visitar el sitio 👉 [https://florenciarodriguez.vercel.app/](https://florenciarodriguez.vercel.app/)
+<h1 align="center"> ✨ Mi portfolio web ✨</h1>
 
 ## Descripción
 
-Desarrollada con buenas prácticas de **React**, **JavaScript**, y **CSS moderno (Flexbox & Grid)** para construir una interfaz accesible, fluida y adaptable a distintos dispositivos.  
+Desarrollada con buenas prácticas de **React**, **JavaScript** y **CSS (Flexbox & Grid)** para construir una interfaz accesible, fluida y adaptable a distintos dispositivos.  
 Diseñé y maqueté todo desde cero — sin frameworks CSS — para reforzar los fundamentos de React, HTML y CSS.  
-En la actualidad, sigo trabajando para mejorar la escalabilidad del código y agregar nuevas funcionalidades con React. 
+En la actualidad, sigo trabajando para mejorar la escalabilidad del código y agregar nuevas funcionalidades con React.
 
-## Característica / Funcionalidades
+#### Visitar el sitio 👉 [https://florenciarodriguez.vercel.app/](https://florenciarodriguez.vercel.app/)
 
-- Diseño **100% responsive**, optimizado para móviles y escritorio.
-- Navegación fluida con **animaciones suaves** (próximamente).
+## Características / Funcionalidades
+
+- Diseño **responsive**, adaptado a dispositivos móviles y escritorio.
+- Formulario de contacto integrado con **EmailJS**.
 - Estructura clara dividida en secciones:
   - 🎓 Sobre mi
   - 🧑‍💻 Proyectos
   - 📩 Contacto
+- Animaciones y transiciones para mejorar la experiencia de usuario.
+- Sanitización de contenido mediante DOMPurify.
 
-## Tecnología usada
+## Tecnologías utilizadas
 
-- Framework / Biblioteca: React + JavaScript
+- Frontend: React + JavaScript
+- Build tool: Vite
+- Animaciones: Framer Motion
+- Iconos: React Icons
+- Formularios / Email: EmailJS (@emailjs/browser)
+- Sanitización: DOMPurify
+- Estilos: HTML5 + CSS3 (Flexbox & Grid), sin frameworks CSS externos
 
-- Maquetado con HTML + CSS moderno (Flexbox & Grid), sin frameworks CSS externos.
+## Configuración Local
 
-- Diseño responsivo para múltiples tamaños de pantalla.
+Para utilizar el formulario de contacto en un entorno de desarrollo, crear un archivo `.env` en la raíz del proyecto:
 
-- (Futuro) Mejora en escalabilidad del código y nuevas funcionalidades.
+```env
+VITE_EMAILJS_SERVICE_ID=tu_service_id
+VITE_EMAILJS_TEMPLATE_ID=tu_template_id
+VITE_EMAILJS_PUBLIC_KEY=tu_public_key
+```
 
 ## Contacto
 
